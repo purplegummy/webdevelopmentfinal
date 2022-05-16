@@ -1,5 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
 nav ul{
     display: flex;
     flex-direction: row;
 
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width: 3em;
+    height: 3em;
 }
