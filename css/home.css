@@ -1,17 +1,31 @@
-article {
+.firstContent {
     width: 40%; 
-    
+    position: absolute;
+    left: 2em; 
 }
-.truck2 {
+.secondContent{
+    width:30%;
+    position:absolute;
+    right:2em;
+    top:25em;
+}
+.truck1 {
     width: 30%; 
-  
+    position: absolute;
+    top: 8em;
+    right: 2em; 
+}
+
+.truck2{
+    width:40%;
+    position:relative;
+    left:2em;
 }
 
 .body1 {
     width: 100%; 
     height: 20em; 
-    position: absolute;
-    top: 2em;
-    right: 2em; 
+   
 }
+
 
