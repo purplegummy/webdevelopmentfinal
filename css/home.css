@@ -1,0 +1,15 @@
+section :first-child{
+    background-color:blue;
+    
+}
+section div >*{
+    display:flex;
+    flex-direction:row;
+}
+section div :last-child{
+    background-color:silver;
+}
+section div img{
+    width:auto;
+    height:30em;
+}
