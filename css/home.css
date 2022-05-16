@@ -2,6 +2,12 @@ section :first-child{
     background-color:blue;
     
 }
+section :first-child article{
+    width:60%;
+}
+section :first-child img{
+    width:40%;
+}
 section div >*{
     display:flex;
     flex-direction:row;
