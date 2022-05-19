@@ -1,21 +1,15 @@
 .firstContent {
     width: 40%; 
-    position: absolute;
-    left: 2em; 
-    top:8em;
+   
 }
 .secondContent{
     width:30%;
-    position:absolute;
-    right:2em;
-    top:30em;
+    
 }
 .truck1 {
     border-radius: 5%;
-    width: 30%; 
-    position: absolute;
-    top: 8em;
-    right: 2em; 
+    width: 90%; 
+    
 }
 .firstContent p{
     font-size:1em;
@@ -25,23 +19,26 @@
 }
 .truck2{
     border-radius: 5%;
-    width:40%;
-    position:absolute;
-    left:2em;
-    top:25em;
+    width:90%;
+    
 }
 
 .body1 {
-    width: 100%; 
-    height: 20em; 
-   background-color:#e54a45;
-   color: white;
+   
 }
 .body2{
+   
+    
+}
+.content section {
+    flex-direction: column;
     background-color:#e54a45;
     color: white;
-    width:100%;
-    height:30em;
+    width: 40%;
+    padding: 5%;
 }
-
-
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
