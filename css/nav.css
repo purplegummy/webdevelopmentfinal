@@ -4,6 +4,9 @@
     padding: 0;
     border: 0;
 }
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 nav {
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
