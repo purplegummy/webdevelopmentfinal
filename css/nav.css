@@ -12,10 +12,15 @@ nav {
     flex-direction: row;
     background-color: rgb(88, 86, 86);
     justify-content: space-between;
+
+ 
+   
 }
 nav ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
     
     
 }
@@ -31,8 +36,17 @@ nav ul li a {
 .logo {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+   
 }
 .logo img{
     width: 3em;
     height: 3em;
+    margin-right: 1em;
+}
+.logo h1 {
+    font-size: 1.2em;
+    color:white;
+    font-weight: 100;
 }
