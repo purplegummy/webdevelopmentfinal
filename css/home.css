@@ -1,15 +1,43 @@
-section :first-child{
-    background-color:blue;
-    
+.firstContent {
+    width: 40%; 
+    position: absolute;
+    left: 2em; 
+    top:8em;
 }
-section div >*{
-    display:flex;
-    flex-direction:row;
+.secondContent{
+    width:30%;
+    position:absolute;
+    right:2em;
+    top:30em;
 }
-section div :last-child{
-    background-color:silver;
+.truck1 {
+    width: 30%; 
+    position: absolute;
+    top: 8em;
+    right: 2em; 
 }
-section div img{
-    width:auto;
-    height:30egit;
+.firstContent p{
+    font-size:1em;
 }
+.secondContent p{
+    font-size:1em;
+}
+.truck2{
+    width:40%;
+    position:absolute;
+    left:2em;
+    top:25em;
+}
+
+.body1 {
+    width: 100%; 
+    height: 20em; 
+   background-color:gray;
+}
+.body2{
+    background-color:lightcoral;
+    width:100%;
+    height:30em;
+}
+
+
