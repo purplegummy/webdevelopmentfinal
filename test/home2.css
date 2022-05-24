@@ -1,0 +1,44 @@
+.firstContent {
+    width: 40%; 
+   
+}
+.secondContent{
+    width:30%;
+    
+}
+.truck1 {
+    border-radius: 5%;
+    width: 90%; 
+    
+}
+.firstContent p{
+    font-size:1em;
+}
+.secondContent p{
+    font-size:1em;
+}
+.truck2{
+    border-radius: 5%;
+    width:90%;
+    
+}
+
+.body1 {
+   
+}
+.body2{
+   
+    
+}
+.content section {
+    flex-direction: column;
+    background-color:#e54a45;
+    color: white;
+    width: 40%;
+    padding: 5%;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
