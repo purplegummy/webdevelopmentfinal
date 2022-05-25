@@ -131,9 +131,9 @@ color: white;
 }
 .info {
     transition: 1s;
-    height: 150vh;
+
     width: 90%;
-    padding: 20vh 5%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
    
@@ -182,7 +182,7 @@ color: white;
     
 }
 /*
-1386 media query for the boxes - change height to 100%
+1386 media query for the boxes - change height to 100%;
 */
 .info .boxes {
     width:100%;
@@ -190,10 +190,10 @@ color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    
     justify-content: center;
-  
-   height: 100%;
+    margin-top: 10em;
+    height: 100%;
   
 }
 .info .boxes > div {
@@ -201,6 +201,7 @@ color: white;
     margin: 3em;
     border-radius: 30px;
     margin-top: 1em;
+    margin-bottom: 20em;
     
     
 }
