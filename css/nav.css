@@ -131,13 +131,13 @@ color: white;
 }
 .info {
     transition: 1s;
-    
+    height: 150vh;
     width: 90%;
     padding: 20vh 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
+    
     text-align: center;
     
     background-image:linear-gradient(to bottom, rgba(0,0,0,.9) 0%,rgba(0,0,0,.95) 100%),url('https://i.ytimg.com/vi/skpnkHjM2QQ/mqdefault.jpg');
@@ -170,7 +170,7 @@ color: white;
     transition: 1s;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 98%;
     border-radius: 3%;
     height: 100%;
     font-size: .8em;
@@ -181,20 +181,26 @@ color: white;
     opacity: .8;
     
 }
+/*
+1386 media query for the boxes - change height to 100%
+*/
 .info .boxes {
-    width: 100%;
+    width:100%;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   
-   height: 25em;
+   height: 100%;
+  
 }
 .info .boxes > div {
     transition: 1s;
     margin: 3em;
-    border-radius: 20%;
+    border-radius: 30px;
+    margin-top: 1em;
     
     
 }
@@ -213,12 +219,13 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 
 }
 
 
 .info .boxes div img {
-    width: 100%;
+    width: 20em;
     height: 13em;
     border-radius: 3%;
 
@@ -274,10 +281,17 @@ color: white;
 
 .services div {
     display: flex;
-    flex-direction: row;
-    width: 50%;
+   flex-direction: row;
+   
     margin-top: 3em;
     flex-wrap: wrap;
+    width: 100%;
+   
+}
+
+.services div > div {
+   
+    
 }
 
 .services div div {
@@ -285,6 +299,10 @@ color: white;
     align-items: center;
     justify-content: center;
     flex-wrap:wrap;
+    width: 30em;
+    margin: auto;
+    
+    
 }
 .tri {
     transition: 1s;
