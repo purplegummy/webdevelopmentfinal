@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Champion Trucking</title>
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/home.css">
+    
     <link rel="stylesheet" href="css/hero.css">
-
+   
 </head>
 <body>
     <!-- Nav Bar-->
     <nav>
-        <div class="logo">
+        <div class="logo" style="display:none;">
             <img src="images/champion.png"/>
-            <h1>Champion Trucking</h1>
+            <h1>Champion Trucking </h1>
         </div>
+    
+        <img src="images/logo.png"/>
         
         <ul>
             <li>
                 <a href="#home">HOME</a>
+            </li>
+            <li>
+                <a href="#info">ABOUT</a>
             </li>
             <li>
                 <a href="#services">SERVICES</a>
@@ -34,57 +39,110 @@
                 <a href="#employment">EMPLOYMENT</a>
             </li>
 
-            <li>
-                <a href="#quote">QUOTE</a>
-            </li>
+            
 
 
         </ul>
 
     </nav>
     
-    <div class="logo">
-        <img src="images/champion.png"/>
-        <h1>Champion Trucking</h1>
+    
+
+    <div class="hero" id="home">
+        <h2>Trucking Made For You.</h2>
+        <a href="#info">Learn More.</a>
     </div>
-    <div class="hero">
-        <h1>Become A Champion.</h1>
-        <p>View Our Services Here.</p>
-        <div>
-            <button>Learn More.</button>
+
+    <div class="info" id="info">
+        <header>
+            <h3>About Us</h3>
+            <h1>Being A <span>Champion.</span></h1>
+        </header>
+        <div class="boxes">
+
+            <div>
+                <article>
+                    <img class="truckimg" src="/images/whitetruck3.jpeg">
+                    <div>Locally owned and operated since 1994, we are committed to providing the best for all of our clients. Great service begins and ends with experienced and friendly professionals, which is why we put so much consideration into selecting only the best to join our team. With over 70 power units, we are able to complete projects efficiently and on schedule. At Champion, we go above and beyond to form lasting relationships with our clients to make you feel like the real Champion.</div>
+                </article>
+                
+                <div class="title">
+                    <div>
+                        <p>Let Us Bring It Into Reality</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <article>
+                    <img class="truckimg mid" src="/images/redtruck2.jpeg"/>
+                    <div>Our mission at Champion Trucking is simple: to provide high quality services and to find the best solutions to the challenges our clients face. We take the time to understand the needs and concerns of every client, so we can provide the best solution possible.</div>
+                </article>
+                
+                <div class="title">
+                    <div>
+                        <p>From The Start To The End</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <article>
+                    <img class="truckimg" src="/images/whitetruckk.jpeg"/>
+                    <div>No matter how big or small the project, we work with the same care and skill. We pride ourselves on delivering the highest quality on every project we complete.</div>
+                </article>
+                
+                <div class="title">
+                    <div>
+                        <p>Our Quality Of Work</p>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        
-    </div>
-
-    <div class="content">
-        <section class='body1'>
-            <article class="firstContent">
-                <h1>BEING A CHAMPION</h1>
-                <h2>LET US BRING IT INTO REALITY</h2>
-                <p>Locally owned and operated since 1994, we are committed to providing the best for all of our clients. Great service begins and ends with experienced and friendly professionals, which is why we put so much consideration into selecting only the best to join our team. With over 70 power units, we are able to complete projects efficiently and on schedule. At Champion, we go above and beyond to form lasting relationships with our clients to make you feel like the real Champion.</p>
-            </article>
-
-            <div class="truck">
-                <img src="images/blacktruck.jpeg" class="truck1"/>
-            </div>
-            
-            
-        </section>
-        <section class="body2">
-            <div class="truck">
-                <img class="truck2"src="images/redTruck.jpeg"/>
-            </div>
-
-            <article class="secondContent">
-                <h2>FROM START
-                    TO THE END</h2>
-                <p> Our mission at Champion Trucking is simple: to provide high quality services and to find the best solutions to the challenges our clients face. We take the time to understand the needs and concerns of every client, so we can provide the best solution possible.</p>
-                <p>No matter how big or small the project, we work with the same care and skill. We pride ourselves on delivering the highest quality on every project we complete.</p>
-            </article>
-           
-        </section>
     </div>
     
+    
+
+    <div class="services" id="services">
+        <header>
+            <h3>Services</h3>
+            <h1>Select One Of Our Divisions.</h1>
+        </header>
+        <div>
+            <div style="">
+                <a class="divi" href="#tri">Tri-Axle Dump Truck</a>
+            </div>
+            <div style="">
+                <a class="divi" href="#road">Road Tractor Truck</a>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <div id="tri" class="tri">
+        <div>
+            <header>
+                <h1>Tri-Axle Dump Truck</h1>
+            </header>
+            <div>
+                <section>Dirt/Topsoil</section>
+                <section>Demolition Debris</section>
+                <section>Rock</section>
+                <section>Asphalt</section>
+                <section>Sand</section>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+
+    </div>
+
+    <div id="employment">
+
+    </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
