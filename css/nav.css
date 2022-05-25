@@ -104,6 +104,7 @@ color: white;
     transition: 1s;
     
     width: 90%;
+    height: 30em;
     padding: 10vh 5%;
     display: flex;
     flex-direction: column;
@@ -202,6 +203,7 @@ color: white;
     border-radius: 30px;
     margin-top: 1em;
     margin-bottom: 20em;
+   
     
     
 }
@@ -308,41 +310,70 @@ color: white;
 .tri {
     transition: 1s;
     
-    width: 90%;
-    padding: 20vh 5%;
+    width: 100%;
+    height:50em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   
     text-align: center;
     
     background-image:linear-gradient(to bottom, rgba(0,0,0,.9) 0%,rgba(0,0,0,.95) 100%),url('https://i.ytimg.com/vi/skpnkHjM2QQ/mqdefault.jpg');
     background-size: cover;
 }
-.tri div {
-    height: 20em;
+.tri > div {
+    margin-top: 10em;
+    height: 35em;
+    width: 30em;
     border-radius: 30px;
-    background-color:rgb(34, 34, 34);
+    background-color:rgba(255, 255, 255, 0.048);
     color:white;
+    font-size: 1em;
+    border: 1px solid white;
 }
+
 .tri header {
     color: rgb(255, 255, 255);
-  
-    background-color:rgba(114, 114, 114, 0.7);
+    padding: 1em 1%;
+   
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 
 }
+
 .tri div div section {
-    margin-top:.5em;
+    margin-top:4em;
     height: 20%;
+    font-weight: 100;
+    
 }
 
 
 .tri header h1 {
+    display: block;
     font-weight: 100;
-    font-size: 2em;
+    font-size: 1.3em;
     padding: 5%;
+    width: 50%;
+    border-bottom: white solid 1px;
+    margin: auto;
+}
+.services article p {
+    color: white;
+    font-weight: 100;
+}
+
+.services article {
+    margin-top: 4em;
+    width: 50%;
+}
+
+
+
+
+.tri.road {
+    background-image:linear-gradient(to bottom, rgba(0,0,0,.95) 0%,rgba(0,0,0,.9) 100%),url('https://i.ytimg.com/vi/skpnkHjM2QQ/mqdefault.jpg');
+    background-size: cover;
 }
 
 
@@ -355,33 +386,88 @@ color: white;
 
 
 
+ 
+#end{
+    /*
+        add gradient
+    */
+    background-color:gray;
+ }
+  
+ #Contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+   
+    padding: 10vh;
+ }
+ #Contact h2{
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    text-align:center;
+    width:30%;
+    background-color:rgba(114, 114, 114, 0.7);
+  
+ }
+ #Contact div{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+
+    background-color:rgb(34, 34, 34);
+    color:white;
+ }
+ #Contact div >*{
+    padding-top:5%;
+    padding-bottom:5%;
+ }
+ #Contact div a{
+    text-decoration:none;
+    color:rgb(0,128,255);
+ }
+ 
+
+ .form{
+   
+     width: 100%;
+     height: 100vh;
+     background-image:linear-gradient(to bottom, rgba(0,0,0,.95) 0%,rgba(0,0,0,.9) 100%),url('https://i.ytimg.com/vi/skpnkHjM2QQ/mqdefault.jpg');
+    background-size: cover;
+ }
+
+ .form form {
+     color: white;
+     font-weight: 100;
+     margin: auto;
+     width: 50%;
+     height: 40em;
+     display: flex;
+     flex-direction: column;
+     
+
+ }
+.form form input {
+    margin-top: 2em;
+    width: 15em;
+    height: 2em;
+    border-radius: 100px;
+    padding-left: .5em;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form form label {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+.big {
+    margin-top: 10em;
+    height: 4em;
+    width: 15em;
+    
+}
 
 
 
